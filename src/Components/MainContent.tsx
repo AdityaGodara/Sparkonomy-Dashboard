@@ -1,6 +1,7 @@
 import { Crown } from "lucide-react";
 import IncomeTrendChart from "./IncomeTrendChart";
 import Invoices from "./Invoices";
+import { useState } from "react";
 
 export default function MainContent() {
     const filters = ["1 Month", "3 Month", "1 Year", "Custom"];
