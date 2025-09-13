@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { invoice_data } from "../data/invoice_data.js";
+import { invoice_data } from "../data/invoice_data.ts";
 import { AnimatePresence,motion } from "framer-motion";
-import {slideAnimation} from "../config/motion.js";
+import {slideAnimation} from "../config/motion.ts";
 import { Pen, BellRing } from "lucide-react";
 
 export default function Invoices() {

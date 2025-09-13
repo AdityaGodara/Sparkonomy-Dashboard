@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion"
 import { ChevronLeft, UserRound } from "lucide-react"
-import {slideAnimation} from "../config/motion.js";
+import {slideAnimation} from "../config/motion.ts";
 
 export default function Navbar() {
     return (
