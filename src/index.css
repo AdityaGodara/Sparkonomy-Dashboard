@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180.36deg,
+      #ff9ac7 -35.12%,
+      #9747ff 49.87%,
+      #334cca 104.94%);
+}
+
+.invoice-text {
+  background: linear-gradient(169.7deg,
+      #dd2a7b 1.49%,
+      #9747ff 42.07%,
+      #334cca 99.84%);
+  -webkit-background-clip: text;
+  /* Safari/Chrome */
+  -webkit-text-fill-color: transparent;
+  /* Safari/Chrome */
+  background-clip: text;
+  /* Standard */
+  color: transparent;
+  /* Fallback */
+}
+
+.add-icon{
+  background: linear-gradient(169.7deg,
+      #dd2a7b 1.49%,
+      #9747ff 42.07%,
+      #334cca 99.84%);
+  -webkit-background-clip: text;
+  /* Safari/Chrome */
+  -webkit-text-fill-color: transparent;
+  /* Safari/Chrome */
+  background-clip: text;
+  /* Standard */
+  color: transparent;
+  /* Fallback */
+}
