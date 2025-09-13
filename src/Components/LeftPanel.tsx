@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion"
 import { CirclePlus } from "lucide-react"
-import {slideAnimation, bounceIn} from "../config/motion.ts";
+import {bounceIn} from "../config/motion.ts";
 
 export default function LeftPanel() {
     return (

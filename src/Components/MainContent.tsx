@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { Crown } from "lucide-react";
 import IncomeTrendChart from "./IncomeTrendChart";
 import Invoices from "./Invoices";
